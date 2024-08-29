@@ -70,7 +70,7 @@ if __name__ == "__main__":
     parser.add_argument("-l", '--link', metavar='str', type=str, help='Base URL site as string',  default=sys.stdin, required=True)
     parser.add_argument("-d", '--depth', metavar='int', type=int, help='Lookup depth as integer', default=0, required=False)
     parser.add_argument("-o", '--output', metavar='str', type=str, help='Output file path as string', default=None, required=False)
-    parser.add_argument("-v",'--verbosity', help='Output file path as string', action="store_true")
+    parser.add_argument("-v",'--verbosity', help='display on StdOut, Scraped Urls', action="store_true")
     args = parser.parse_args()
 
     try:
