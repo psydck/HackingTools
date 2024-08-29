@@ -1,0 +1,7 @@
+rich 
+pytest 
+allure-pytest 
+playwright 
+requests 
+beautifulsoup4 
+fasthtml 
